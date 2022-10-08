@@ -1,0 +1,119 @@
+* E:\project\esim_soc_marathon\snk\snk.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 10/8/2022 10:05:50 PM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U48  nc1 rst Net-_U48-Pad3_ Net-_U48-Pad4_ Net-_U48-Pad5_ Net-_U48-Pad6_ nali_counter		
+U18  Net-_U18-Pad1_ Net-_U18-Pad2_ nali_inverter		
+U54  Net-_U54-Pad1_ Net-_U54-Pad2_ Net-_U54-Pad3_ Net-_U54-Pad4_ Net-_U53-Pad5_ Net-_U53-Pad6_ Net-_U54-Pad7_ nali_mux		
+U53  Net-_U52-Pad5_ Net-_U50-Pad5_ Net-_U51-Pad5_ Net-_U49-Pad5_ Net-_U53-Pad5_ Net-_U53-Pad6_ nali_pe		
+U52  Net-_U48-Pad3_ Net-_U48-Pad4_ Net-_U48-Pad5_ Net-_U48-Pad6_ Net-_U52-Pad5_ nali_and		
+U46  nc2 rst Net-_U46-Pad3_ Net-_U46-Pad4_ Net-_U46-Pad5_ Net-_U46-Pad6_ nali_counter		
+U50  Net-_U46-Pad3_ Net-_U46-Pad4_ Net-_U46-Pad5_ Net-_U46-Pad6_ Net-_U50-Pad5_ nali_and		
+U47  nc3 rst Net-_U47-Pad3_ Net-_U47-Pad4_ Net-_U47-Pad5_ Net-_U47-Pad6_ nali_counter		
+U51  Net-_U47-Pad3_ Net-_U47-Pad4_ Net-_U47-Pad5_ Net-_U47-Pad6_ Net-_U51-Pad5_ nali_and		
+U45  nc4 rst Net-_U45-Pad3_ Net-_U45-Pad4_ Net-_U45-Pad5_ Net-_U45-Pad6_ nali_counter		
+U49  Net-_U45-Pad3_ Net-_U45-Pad4_ Net-_U45-Pad5_ Net-_U45-Pad6_ Net-_U49-Pad5_ nali_and		
+U55  sig1 sig2 sig3 sig4 Net-_U54-Pad1_ Net-_U54-Pad2_ Net-_U54-Pad3_ Net-_U54-Pad4_ adc_bridge_4		
+SC16  sig1 Net-_SC15-Pad2_ GND GND sky130_fd_pr__nfet_01v8_lvt		
+SC15  sig1 Net-_SC15-Pad2_ vdd vdd sky130_fd_pr__pfet_01v8_lvt		
+SC8  Net-_SC15-Pad2_ vin1 GND GND sky130_fd_pr__nfet_01v8_lvt		
+SC7  Net-_SC15-Pad2_ vin1 vdd vdd sky130_fd_pr__pfet_01v8_lvt		
+U56  Net-_U54-Pad7_ out dac_bridge_1		
+U57  out plot_v1		
+SC14  sig2 Net-_SC13-Pad2_ GND GND sky130_fd_pr__nfet_01v8_lvt		
+SC13  sig2 Net-_SC13-Pad2_ vdd vdd sky130_fd_pr__pfet_01v8_lvt		
+SC6  Net-_SC13-Pad2_ vin2 GND GND sky130_fd_pr__nfet_01v8_lvt		
+SC5  Net-_SC13-Pad2_ vin2 vdd vdd sky130_fd_pr__pfet_01v8_lvt		
+SC12  sig3 Net-_SC11-Pad2_ GND GND sky130_fd_pr__nfet_01v8_lvt		
+SC11  sig3 Net-_SC11-Pad2_ vdd vdd sky130_fd_pr__pfet_01v8_lvt		
+SC4  Net-_SC11-Pad2_ vin3 GND GND sky130_fd_pr__nfet_01v8_lvt		
+SC3  Net-_SC11-Pad2_ vin3 vdd vdd sky130_fd_pr__pfet_01v8_lvt		
+SC10  sig4 Net-_SC1-Pad1_ GND GND sky130_fd_pr__nfet_01v8_lvt		
+SC9  sig4 Net-_SC1-Pad1_ vdd vdd sky130_fd_pr__pfet_01v8_lvt		
+SC2  Net-_SC1-Pad1_ vin4 GND GND sky130_fd_pr__nfet_01v8_lvt		
+SC1  Net-_SC1-Pad1_ vin4 vdd vdd sky130_fd_pr__pfet_01v8_lvt		
+X6  vdd GND vr1 sig1 out1 GND avsd_opamp		
+X8  vdd GND vr2 sig1 out2 GND avsd_opamp		
+SC23  vr1 vdd vdd sky130_fd_pr__res_generic_nd		
+SC26  vr2 vr1 vdd sky130_fd_pr__res_generic_nd		
+SC28  GND vr2 vdd sky130_fd_pr__res_generic_nd		
+U28  out2 plot_v1		
+U25  out1 plot_v1		
+v1  vdd GND DC		
+v2  vin1 GND sine		
+scmode1  SKY130mode		
+U11  vr1 plot_v1		
+U8  sig1 plot_v1		
+U12  vr2 plot_v1		
+U32  out1 out2 Net-_U18-Pad1_ Net-_U20-Pad1_ adc_bridge_2		
+U36  Net-_U18-Pad2_ Net-_U20-Pad2_ nc1 d_and		
+U41  nc1 wout1 dac_bridge_1		
+U44  wout1 plot_v1		
+U20  Net-_U20-Pad1_ Net-_U20-Pad2_ nali_inverter		
+U16  Net-_U16-Pad1_ Net-_U16-Pad2_ nali_inverter		
+X4  vdd GND vr3 sig2 out3 GND avsd_opamp		
+X7  vdd GND vr4 sig2 out4 GND avsd_opamp		
+SC21  vr3 vdd vdd sky130_fd_pr__res_generic_nd		
+SC24  vr4 vr3 vdd sky130_fd_pr__res_generic_nd		
+SC27  GND vr4 vdd sky130_fd_pr__res_generic_nd		
+U27  out4 plot_v1		
+U24  out3 plot_v1		
+U9  vr3 plot_v1		
+U5  sig2 plot_v1		
+U10  vr4 plot_v1		
+U31  out3 out4 Net-_U16-Pad1_ Net-_U19-Pad1_ adc_bridge_2		
+U35  Net-_U16-Pad2_ Net-_U19-Pad2_ nc2 d_and		
+U38  nc2 wout2 dac_bridge_1		
+U42  wout2 plot_v1		
+U19  Net-_U19-Pad1_ Net-_U19-Pad2_ nali_inverter		
+U15  Net-_U15-Pad1_ Net-_U15-Pad2_ nali_inverter		
+X3  vdd GND vr5 sig3 out5 GND avsd_opamp		
+X5  vdd GND vr6 sig3 out6 GND avsd_opamp		
+SC20  vr5 vdd vdd sky130_fd_pr__res_generic_nd		
+SC22  vr6 vr5 vdd sky130_fd_pr__res_generic_nd		
+SC25  GND vr6 vdd sky130_fd_pr__res_generic_nd		
+U26  out6 plot_v1		
+U23  out5 plot_v1		
+U6  vr5 plot_v1		
+U4  sig3 plot_v1		
+U7  vr6 plot_v1		
+U30  out5 out6 Net-_U15-Pad1_ Net-_U17-Pad1_ adc_bridge_2		
+U34  Net-_U15-Pad2_ Net-_U17-Pad2_ nc3 d_and		
+U40  nc3 wout3 dac_bridge_1		
+U43  wout3 plot_v1		
+U17  Net-_U17-Pad1_ Net-_U17-Pad2_ nali_inverter		
+U13  Net-_U13-Pad1_ Net-_U13-Pad2_ nali_inverter		
+X1  vdd GND vr7 sig4 out7 GND avsd_opamp		
+X2  vdd GND vr8 sig4 out8 GND avsd_opamp		
+SC17  vr7 vdd vdd sky130_fd_pr__res_generic_nd		
+SC18  vr8 vr7 vdd sky130_fd_pr__res_generic_nd		
+SC19  GND vr8 vdd sky130_fd_pr__res_generic_nd		
+U22  out8 plot_v1		
+U21  out7 plot_v1		
+U2  vr7 plot_v1		
+U1  sig4 plot_v1		
+U3  vr8 plot_v1		
+U29  out7 out8 Net-_U13-Pad1_ Net-_U14-Pad1_ adc_bridge_2		
+U33  Net-_U13-Pad2_ Net-_U14-Pad2_ nc4 d_and		
+U37  nc4 wout4 dac_bridge_1		
+U39  wout4 plot_v1		
+U14  Net-_U14-Pad1_ Net-_U14-Pad2_ nali_inverter		
+v3  vin2 GND sine		
+v4  vin3 GND sine		
+v5  vin4 GND sine		
+v6  Net-_U58-Pad1_ GND pulse		
+U58  Net-_U58-Pad1_ rst adc_bridge_1		
+U60  pe1 plot_v1		
+U61  pe2 plot_v1		
+U62  pe3 plot_v1		
+U63  pe4 plot_v1		
+U64  Net-_U53-Pad5_ Net-_U53-Pad6_ mux_s1 mux_s0 dac_bridge_2		
+U59  Net-_U52-Pad5_ Net-_U50-Pad5_ Net-_U51-Pad5_ Net-_U49-Pad5_ pe1 pe2 pe3 pe4 dac_bridge_4		
+U65  mux_s0 plot_v1		
+U66  mux_s1 plot_v1		
+
+.end
