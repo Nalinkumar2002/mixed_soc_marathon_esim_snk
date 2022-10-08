@@ -152,6 +152,10 @@ output line
 
 ![bssch](Images/sch_snk.png)
 
+Sky-mode 
+
+![bssch](Images/sky.png)
+
 Schematic designed for cmos buffer signal generation
 
 ![bssch](Images/cmos.png)
@@ -261,7 +265,7 @@ endmodule
 Resultant waveform of Window comparators
 
 * Window Comparator - 1
-* 
+
 ![bstbout](Images/nc1.png)
 
 * Window Comparator - 2
@@ -598,7 +602,7 @@ ngspice snk.cir.out
 
 # 🔍 References
 
-📔 . Laknaur, R. Xiao, S. Durbha and H. Wang, ”Design of a Window Comparator with Adaptive Error Threshold for Online Testing Applications,”
+📔 . Laknaur, R. Xiao, S. Durbha and H. Wang, ”Design of a Window Comaparator with Adaptive Error Threshold for Online Testing Applications,”
 8th International Symposium on Quality Electronic Design (ISQED’07),
 2007.
 
