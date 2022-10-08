@@ -577,9 +577,9 @@ plot v(mux_s0)+1 v(mux_s1)+7 v(sig1)+13 v(sig2)+19 v(sig3)+26 v(sig4)+31 v(out)+
 ```
 git clone https://github.com/Nalinkumar2002/mixed_soc_marathon_esim_snk.git
 ```
-2. Go to *snk* directory
+2. Go to *snk_design* directory
 ```
-cd snk
+cd snk_design
 ```
 
 3. Create the Ngveri models and Run NgSpice
