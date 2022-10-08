@@ -158,7 +158,7 @@ Schematic designed for cmos buffer signal generation
 
 Schematic designed for window comparator
 
-![bssch](Images/sch4.png)
+![bssch](Images/win.png)
 
 Schematic for MOD-16 Counter, 4x2 Priority Encoder, 4x1 MUX 
 
