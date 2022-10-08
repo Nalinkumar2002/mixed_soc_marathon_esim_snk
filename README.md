@@ -64,7 +64,7 @@ counting and Prioritize based data line selection applications.
 
 </br>
 
-# 📝 Window Comparator Along With MOD-16 Counter and 16x1 Mux
+# 📝 Implementation of Quadruple - Window Comparator Along with Prioritised MOD-16 Counter for Data Line Multiplexing Operation
 
 
 Most of senors produce analog outputs, Considering many
